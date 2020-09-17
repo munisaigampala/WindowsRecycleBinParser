@@ -5,7 +5,7 @@ I_Parser, A python command line script to parse $I File and prints the informati
   - Read the information from $I file which belongs to Windows Recycle BIn
   
 # Important points related Recycle Bin Forensics
-  - Recyclebin or $Recycle.Bin is more like a directory in windows and can be found in every drive.(C:\$Recycle.Bin\SID\$Ixxxxxx)
+  - Recyclebin or $Recycle.Bin is more like a directory in windows and can be found in every drive.(C:\\$Recycle.Bin\\SID\\$Ixxxxxx)
   - Each Deleted file will move to $Recycle.Bin and gets plit into two files $I and $R
   - $I file contains the metada of the deleted file and $R has the original content.
   
